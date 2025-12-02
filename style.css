@@ -1,0 +1,90 @@
+/* ====== RESET ====== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* ====== BODY ====== */
+body {
+    background: #0e0e0e;
+    color: #fff;
+    padding-bottom: 50px;
+}
+
+/* ====== HEADER ====== */
+header {
+    text-align: center;
+    padding: 40px 20px;
+    border-bottom: 3px solid #14ff6a;
+}
+
+header h1 {
+    font-size: 3.5rem;
+    font-weight: 900;
+    color: #14ff6a;
+    text-shadow: 0 0 20px #14ff6a;
+}
+
+header p {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    opacity: 0.8;
+}
+
+/* ====== CARDS ====== */
+.card {
+    background: #121212;
+    border: 2px solid #14ff6a;
+    margin: 40px auto;
+    padding: 30px;
+    width: 85%;
+    max-width: 900px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px #14ff6a55;
+    transition: 0.2s ease;
+}
+
+.card:hover {
+    transform: scale(1.01);
+    box-shadow: 0 0 25px #14ff6a88;
+}
+
+/* TITULOS */
+.card h2 {
+    font-size: 1.9rem;
+    margin-bottom: 15px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+/* PÁRRAFOS */
+.card p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    opacity: 0.9;
+}
+
+/* LISTAS */
+.card ul {
+    margin-left: 25px;
+    margin-top: 10px;
+    line-height: 1.8;
+}
+
+/* ====== RESPONSIVE ====== */
+@media (max-width: 700px) {
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    .card {
+        padding: 20px;
+    }
+
+    .card h2 {
+        font-size: 1.6rem;
+    }
+}
